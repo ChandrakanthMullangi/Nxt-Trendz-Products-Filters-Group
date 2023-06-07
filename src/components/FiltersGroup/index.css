@@ -1,0 +1,100 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .filters-group-container {
+    width: 30%;
+    max-width: 350px;
+    margin-top: 48px;
+    flex-shrink: 0;
+  }
+}
+
+/* Write your CSS here */
+
+.search-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #f1f5f9;
+  border-radius: 8px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.category-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.category-list-container {
+  padding: 0px;
+}
+
+.category-item {
+  list-style-type: none;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+  margin-left: -6px;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  font-family: Roboto;
+  color: #64748b;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.rating-heading {
+  font-family: Roboto;
+  font-size: 20px;
+  margin-bottom: -15px;
+}
+
+.rating-list-container {
+  padding: 0px;
+}
+
+.rating-item {
+  list-style-type: none;
+  margin-bottom: -15px;
+  margin-left: -6px;
+}
+
+.rating-image {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.rating-text {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.clear-filters-button {
+  background-color: transparent;
+  border: 2px solid #0967d2;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-weight: bold;
+  padding: 8px;
+}
+
+.active {
+  color: #0967d2;
+  font-weight: bold;
+}
